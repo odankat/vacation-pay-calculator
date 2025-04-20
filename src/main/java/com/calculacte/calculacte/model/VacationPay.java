@@ -6,7 +6,6 @@ public class VacationPay {
     private double vacationPay;
 
 
-
     public VacationPay(double vacationPay) {
         this.vacationPay = vacationPay;
     }
