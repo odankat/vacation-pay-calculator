@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.Objects;
 
 public class Vacation {
-    private double salary;
+    private int salary;
     private int day;
     private LocalDate startDate;
     private LocalDate endDate;
@@ -13,7 +13,7 @@ public class Vacation {
         return salary;
     }
 
-    public void setSalary(double salary) {
+    public void setSalary(int salary) {
         this.salary = salary;
     }
 
@@ -41,13 +41,13 @@ public class Vacation {
         this.endDate = endDate;
     }
 
-    public Vacation(double salary, LocalDate startDate, LocalDate endDate) {
+    public Vacation(int salary, LocalDate startDate, LocalDate endDate) {
         this.salary = salary;
         this.startDate = startDate;
         this.endDate = endDate;
     }
 
-    public Vacation(double salary, int day) {
+    public Vacation(int salary, int day) {
         this.salary = salary;
         this.day = day;
     }
